@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+    background-image: url(/images/red-black-brush-stroke-banner-background-perfect-canva.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+
+.home-title{
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 455px;
+    top: 68px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 36px;
+    text-align: center;
+    color: bisque;
+}
+    
+
+.home-score-background{
+    position: fixed;
+    width: 190px;
+    height: 180px;
+    left: 449px;
+    top: 125px;
+    background: sandybrown;
+    border-radius: 5px;
+}
+  
+@font-face {
+    font-family:'Cursed Timer ULiL';
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+}
+    
+
+#score--home-el{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 46px;
+    top: -70px;
+    margin: 0, auto;
+    font-family:'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 127px;
+    text-align: center;
+    color: brown;
+}
+#freethrow-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 452px;
+    top: 330px;
+    border: 2px solid #d35603 ;
+    border-radius: 5px;
+}
+
+#midrange-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 523px;
+    top: 330px;
+    border: 2px solid #d35603 ;
+    border-radius: 5px;
+}
+
+#longshot-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 590px;
+    top: 330px;
+    border: 2px solid #d35603 ;
+    border-radius: 5px;
+}
+
+.guest-title{
+    position: absolute;
+    width: 170px;
+    height: 36px;
+    left: 1000px;
+    top: 68px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 36px;
+    text-align: center;
+    color: bisque;
+}
+.guest-score-background {
+    position: fixed;
+    width: 190px;
+    height: 180px;
+    left: 1000px;
+    top: 125px;
+    background: sandybrown;
+    border-radius: 5px;
+}
+
+#score--guest-el{
+    position: absolute;
+    width: 100px;
+    height: 120px;
+    left: 46px;
+    top: -70px;
+    margin: 0, auto;
+    font-family:'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 127px;
+    text-align: center;
+    color: brown;
+}
+
+#freethrow-guest-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1008px;
+    top: 330px;
+    border: 2px solid #d35603 ;
+    border-radius: 5px;
+}
+#midrange-guest-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1079px;
+    top: 330px;
+    border: 2px solid #d35603 ;
+    border-radius: 5px;
+}
+#longshot-guest-el{
+    box-sizing: border-box;
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    left: 1146px;
+    top: 330px;
+    border: 2px solid #d35603 ;
+    border-radius: 5px;
+}
+.btn{
+    position: absolute;
+    width: 30px;
+    height: 25.77px;
+    left: 89px;
+    top: 280px;
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: tomato;
+    background-color: navy;
+
+}
